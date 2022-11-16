@@ -73,11 +73,7 @@ const itemData = [
   //   title: 'Camera',
   //   tag:'Afienya'
   // },
-  {
-    img: 'assets/AFI 8.jpg',
-    title: 'Camera',
-    tag:'Afienya'
-  },
+
   {
     img: 'assets/AFI 9.jpg',
     title: 'Camera',
@@ -88,11 +84,7 @@ const itemData = [
     title: 'Camera',
     tag:'Afienya'
   },
-  {
-    img: 'assets/AFI 11.jpg',
-    title: 'Camera',
-    tag:'Afienya'
-  },
+
   {
     img: 'assets/PRAM 49.jpeg',
     title: 'Coffee',
@@ -139,11 +131,7 @@ const itemData = [
     title: 'Coffee',
     tag:'Prampram'
   },
-  {
-    img: 'assets/PRAM 23.jpeg',
-    title: 'Coffee',
-    tag:'Prampram'
-  },
+
   {
     img: 'assets/PRAM 10.jpeg',
     title: 'Coffee',
@@ -176,26 +164,6 @@ const itemData = [
   },
   {
     img: 'assets/PRAM 22.jpeg',
-    title: 'Coffee',
-    tag:'Prampram'
-  },
-  {
-    img: 'assets/PRAM 32.jpeg',
-    title: 'Coffee',
-    tag:'Prampram'
-  },
-  {
-    img: 'assets/PRAM 36.jpeg',
-    title: 'Coffee',
-    tag:'Prampram'
-  },
-  {
-    img: 'assets/PRAM 38.jpeg',
-    title: 'Coffee',
-    tag:'Prampram'
-  },
-  {
-    img: 'assets/PRAM 56.jpeg',
     title: 'Coffee',
     tag:'Prampram'
   },
@@ -239,31 +207,13 @@ const itemData = [
     title: 'Hats',
     tag:'Shai hills'
   },
-  {
-    img: 'assets/SH 14.jpg',
-    title: 'Hats',
-    tag:'Shai hills'
-  },
-  {
-    img: 'assets/SH 15.jpeg',
-    title: 'Hats',
-    tag:'Shai hills'
-  },
+
   {
     img: 'assets/SH 17.jpeg',
     title: 'Hats',
     tag:'Shai hills'
   },
-  {
-    img: 'assets/SH 18.jpeg',
-    title: 'Hats',
-    tag:'Shai hills'
-  },
-  {
-    img: 'assets/SH 19.jpeg',
-    title: 'Hats',
-    tag:'Shai hills'
-  },
+
   {
     img: 'assets/SH 21.jpeg',
     title: 'Hats',
