@@ -48,11 +48,11 @@ export default Gallery
 
 
 const itemData = [
-  {
-    img: 'assets/AFI 1.jpg',
-    title: 'Breakfast',
-    tag:'Afienya'
-  },
+  // {
+  //   img: 'assets/AFI 1.jpg',
+  //   title: 'Breakfast',
+  //   tag:'Afienya'
+  // },
   {
     img: 'assets/AFI 2.jpg',
     title: 'Burger',
@@ -68,11 +68,11 @@ const itemData = [
     title: 'Camera',
     tag:'Afienya'
   },
-  {
-    img: 'assets/AFI 7.jpg',
-    title: 'Camera',
-    tag:'Afienya'
-  },
+  // {
+  //   img: 'assets/AFI 7.jpg',
+  //   title: 'Camera',
+  //   tag:'Afienya'
+  // },
   {
     img: 'assets/AFI 8.jpg',
     title: 'Camera',
@@ -94,11 +94,6 @@ const itemData = [
     tag:'Afienya'
   },
   {
-    img: 'assets/AFI 12.jpg',
-    title: 'Camera',
-    tag:'Afienya'
-  },
-  {
     img: 'assets/PRAM 49.jpeg',
     title: 'Coffee',
     tag:'Prampram'
@@ -109,11 +104,11 @@ const itemData = [
     title: 'Coffee',
     tag:'Prampram'
   },
-  {
-    img: 'assets/PRAM 1.jpeg',
-    title: 'Coffee',
-    tag:'Prampram'
-  },
+  // {
+  //   img: 'assets/PRAM 1.jpeg',
+  //   title: 'Coffee',
+  //   tag:'Prampram'
+  // },
   {
     img: 'assets/PRAM 2.jpeg',
     title: 'Coffee',
@@ -289,15 +284,15 @@ const itemData = [
     title: 'Hats',
     tag:'Shai hills'
   },
-  {
-    img: 'assets/SH 45.jpg',
-    title: 'Hats',
-    tag:'Shai hills'
-  },
-  {
-    img: 'assets/SH 46.jpg',
-    title: 'Hats',
-    tag:'Shai hills'
-  },
+  // {
+  //   img: 'assets/SH 45.jpg',
+  //   title: 'Hats',
+  //   tag:'Shai hills'
+  // },
+  // {
+  //   img: 'assets/SH 46.jpg',
+  //   title: 'Hats',
+  //   tag:'Shai hills'
+  // },
  
 ];
