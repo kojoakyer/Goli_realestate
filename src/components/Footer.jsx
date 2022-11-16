@@ -10,7 +10,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Footer = () => {
   return (
-    <Box sx={{width:'100%',backgroundColor:'#fff',marginTop:{md:'160px',sm:'150px',xs:'100px'},paddingTop:'50px',borderTop:'1px solid lightGray',backgroundColor:'#fafafa'}}>
+    <Box sx={{width:'100%',marginTop:{md:'160px',sm:'150px',xs:'100px'},paddingTop:'50px',borderTop:'1px solid lightGray',backgroundColor:'#fafafa'}}>
         <Box sx={{display:'flex',flexDirection:{md:'row',sm:'column',xs:'column'} ,justifyContent:'space-between',margin:{md:'0px 200px 0px 200px',sm:'0px 0px',xs:'0px 0px 0px 40px'}}}>
             <Box sx={{width:{md:'60%',sm:'100%',xs:'100%'},display:'flex', justifyContent:'space-between'}}>
                 <Box sx={{width:'100%',fontFamily: 'Montserrat san-serif'}}>

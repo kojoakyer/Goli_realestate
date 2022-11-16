@@ -10,8 +10,6 @@ function Navbar() {
 
     const [click, setClick] = useState(false)
 
-    const [navbar, setNavbar]= useState(false)
-
     function handleClick(){
         setClick(!click)
     }

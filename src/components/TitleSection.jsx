@@ -1,51 +1,19 @@
 import React,{useState} from 'react';
-import { useCountUp} from 'react-countup';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
-import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import Avatar from '@mui/material/Avatar';
-import IconButton from '@mui/material/IconButton';
-import FormGroup from '@mui/material/FormGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
-import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import FolderIcon from '@mui/icons-material/Folder';
-import DeleteIcon from '@mui/icons-material/Delete';
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
 
-function generate(element) {
-  return  Data.map((value) =>
-    React.cloneElement(element, {
-      key: value,
-    }),
-  );
-}
 
 const TitleSection = () => {
 
   const [counterOn , setCounterOn] = useState(false)
-
-  // const { start, pauseResume, reset, update } = useCountUp({
-  //   ref: countUpRef,
-  //   start: 0,
-  //   end: 500,
-  //   delay: 1000,
-  //   duration: 5,
-  //   onReset: () => console.log('Resetted!'),
-  //   onUpdate: () => console.log('Updated!'),
-  //   onPauseResume: () => console.log('Paused or resumed!'),
-  //   onStart: ({ pauseResume }) => console.log(pauseResume),
-  //   onEnd: ({ pauseResume }) => console.log(pauseResume),
-  // });
-
-    const [dense, setDense] = React.useState(false);
-  const [secondary, setSecondary] = React.useState(false);
+  
   return (
     <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=> setCounterOn(false)}>
     <Box sx={{width:'100%',height:'100%',margin:{md:'0px',sm:'50px 20px',xs:'50px 0px'}}}>
