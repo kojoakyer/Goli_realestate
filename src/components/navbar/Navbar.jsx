@@ -18,15 +18,7 @@ function Navbar() {
         setClick(false)
     }
 
-    function changeNavbarColor (){
-        if(window.scrollY >= 100){
-            setNavbar(true)
-        }else{
-            setNavbar(false)
-        }
-    }
-
-    window.addEventListener('scroll', changeNavbarColor)
+  
 
   return (
     <>

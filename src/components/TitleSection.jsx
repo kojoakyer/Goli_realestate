@@ -13,7 +13,7 @@ import CheckBoxIcon from '@mui/icons-material/CheckBox';
 const TitleSection = () => {
 
   const [counterOn , setCounterOn] = useState(false)
-  
+
   return (
     <ScrollTrigger onEnter={()=>setCounterOn(true)} onExit={()=> setCounterOn(false)}>
     <Box sx={{width:'100%',height:'100%',margin:{md:'0px',sm:'50px 20px',xs:'50px 0px'}}}>
@@ -36,7 +36,6 @@ const TitleSection = () => {
                           </ListItemAvatar>
                           <ListItemText primaryTypographyProps={{fontFamily: 'Poppins san-serif'}}
                             primary={item.tile}
-                            secondary={secondary ? 'Secondary text' : null}
                           />
                         </ListItem>
                       ))}
