@@ -5,9 +5,6 @@ import { Typography,Box } from '@mui/material'
 const ChairmansMessage = () => {
   return (
     <div>
-      {/* <Box sx={{height:'200px',marginTop:'100px'padding:{md:'0px 250px 50px 250px',sm:'0px 10px 50px 10px',xs:'0px 15px 50px 15px'}}}>
-        
-      </Box> */}
         <Box sx={{marginTop:'100px',padding:{md:'0px 250px 50px 250px',sm:'0px 10px 50px 10px',xs:'0px 15px 50px 15px'}}}>
             <Box sx={{width:{md:'30%',sm:'100%',xs:'100%'}}}>
               <img style={{width:'100%',height:'400px',marginBottom:'30px',objectFit:'contain'}} src='assets/samMD.jpg' alt='md'/>
