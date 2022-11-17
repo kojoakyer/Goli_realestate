@@ -9,7 +9,7 @@ const ChairmansMessage = () => {
             <Box sx={{width:{md:'30%',sm:'100%',xs:'100%'}}}>
               <img style={{width:'100%',height:'400px',marginBottom:'30px',objectFit:'contain'}} src='assets/samMD.jpg' alt='md'/>
             </Box>
-            <Typography variant='h5'>MANAGING DIRECTORS’S WELCOME MESSAGE </Typography>
+            <Typography variant='h5'>CHAIRMAN'S WELCOME MESSAGE </Typography>
             <Typography variant='h5' sx={{color:'red',fontFamily:'Poppins'}}>DEAR CHERISHED PARTNER</Typography>
             <Typography variant='h6' sx={{marginTop:'15px',fontSize:'18px',fontFamily:'Poppins'}}>
             It is my pleasure to extend a warm welcome to you.  Thank you for visiting our website, we appreciate

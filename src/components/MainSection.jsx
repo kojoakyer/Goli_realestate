@@ -49,14 +49,14 @@ const itemData = [
     },
     {
       img: 'assets/team.jpg',
-      title: 'Enjoy the flexibility of buying a Regimanuel Gray Home with payment installments designed just for you',
+      title: 'Enjoy the flexibility of buying a Goli Properties with payment installments designed just for you',
       desc:'Join Our Team',
       tag:'Our Team',
       to:'/teams'
     },
     {
       img: 'assets/request.jpg',
-      title: 'Enjoy the flexibility of buying a Regimanuel Gray Home with payment installments designed just for you',
+      title: 'Enjoy the flexibility of buying a Goli Properties with  payment installments designed just for you',
       desc:'Make A Request',
       tag:'Request Info',
       to:'/info-request'
@@ -70,7 +70,7 @@ const itemData = [
     },
     {
       img: 'assets/question.jpg',
-      title: 'Enjoy the flexibility of buying a Regimanuel Gray Home with payment installments designed just for you',
+      title: 'Enjoy the flexibility of buying a Goli Properties with payment installments designed just for you',
       desc:'Have Any Question?',
       tag:'Make Enquires',
       to:''
